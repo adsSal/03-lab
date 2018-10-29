@@ -5,8 +5,22 @@
 
 body {
   background: #fcc;
-} 
+	
+}
 
+.menu{ 
+	background: #316dce;
+}
+ 
+nav {
+	Display: none; 
+	background: #fadadd;
+}
+
+.menu:hover + nav, nav:hover {
+	display: flex;
+		
+}
 
 
 /* TABLET STYLES */
@@ -17,10 +31,21 @@ body {
   
   body {
     background: #cfc;
+		display: flex;
+  justify-content: center;
+	/*background:-webkit-gradient(linear, 44% 99%, 5% 15%, from(#8599ED), to(#E57FA8));*/
   } 
+	nav {
+		display: flex;
+	}
+	
+	.menu {
+	background: #316dce;
+	color: white;
+	display: none;
+	line-height: 2em;
+	}
 }
-
-
 
 /* DESKTOP STYLES */
 
